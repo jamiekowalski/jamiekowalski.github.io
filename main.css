@@ -26,9 +26,8 @@ html {
 body {
     background: #ffffff;
     color: #222;
-    font: 1.8rem/2.2rem "Alegreya", Georgia, serif;
+    font: 1.8rem/1.2 "Alegreya", Georgia, serif;
     text-align: center;
-    width: 60rem;
     margin: 0 auto;
     text-rendering: optimizeLegibility;
 }
@@ -48,6 +47,16 @@ h3 {
     line-height: 2.7rem; 
 }
 
+#masthead, #content {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+#masthead {
+    margin-top: 25rem;
+    margin-bottom: 2rem;
+}
+
 #masthead h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -55,8 +64,9 @@ h3 {
     text-decoration: none;
 }
 
-#content {
-    
+#content p {
+    font-size: 2.2rem;
+    line-height: 1.4;
 }
 
 .coming-soon {
