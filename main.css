@@ -47,13 +47,21 @@ h3 {
     line-height: 2.7rem; 
 }
 
+#floater {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 27rem;
+    margin-top: -13.5rem;
+}
+
 #masthead, #content {
     width: 60rem;
     margin: 0 auto;
 }
 
 #masthead {
-    margin-top: 25rem;
+    /*margin-top: 25rem;*/
     margin-bottom: 2rem;
 }
 
@@ -71,4 +79,9 @@ h3 {
 
 .coming-soon {
     font-style: italic;
+}
+img#logo {
+    width: 150px;
+    height: auto;
+    /*opacity: 0.1;*/
 }
