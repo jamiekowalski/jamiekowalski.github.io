@@ -95,7 +95,7 @@ img#logo {
     top: .5rem;
     width: 16px;
     height: 16px;
-    background-image: url(images/GitHub-Mark-32px.png);
+    background-image: url(/images/GitHub-Mark-32px.png);
     background-size: 16px 16px;
     background-repeat: no-repeat;
     opacity: 0.3;
