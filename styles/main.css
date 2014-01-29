@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* :::: Zero out browser styles :::: */
+
+/* ==== Zero out browser styles ============================ */
 body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, blockquote {
 	padding: 0;
 	margin: 0;
@@ -12,13 +13,11 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, blockquote {
 	text-decoration: none;
 } a img {
 	border: none;
-} ul, ol {
-	list-style: none;
 } table {
 	border-spacing: 0;
 	border-collapse: collapse;
 }
-/* :::: End zero out browser styles :::: */
+/* ==== End zero out browser styles ======================== */
 
 html {
     font-size: 10px;
@@ -26,10 +25,17 @@ html {
 body {
     background: #ffffff;
     color: #222;
-    font: 1.8rem/1.2 "Alegreya", Georgia, serif;
+    font: 1.8rem/1.2 "Alegreya", "Lyon Text", Georgia, serif;
     text-align: center;
     margin: 0 auto;
     text-rendering: optimizeLegibility;
+}
+
+a {
+    color: #7FA3F4;
+}
+a:hover {
+    color: #A9C3FF;
 }
 
 h1 {
@@ -46,6 +52,23 @@ h3 {
     font-size: 2.1rem;
     line-height: 2.7rem; 
 }
+
+.external-site {
+    position: fixed;
+}
+
+.github {
+    right: 1.5rem;
+    top: .5rem;
+    width: 16px;
+    height: 16px;
+    background-image: url(/images/GitHub-Mark-32px.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+/* == Home ======================================= */
 
 #floater {
     position: absolute;
@@ -72,7 +95,7 @@ h3 {
     text-decoration: none;
 }
 
-#content p {
+.content.home p {
     font-size: 2.2rem;
     line-height: 1.4;
 }
@@ -86,17 +109,21 @@ img#logo {
     /*opacity: 0.1;*/
 }
 
-.external-site {
-    position: fixed;
+/* == Posts ======================================= */
+
+.post {
+    width: 50rem;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.github {
-    right: .5rem;
-    top: .5rem;
-    width: 16px;
-    height: 16px;
-    background-image: url(/images/GitHub-Mark-32px.png);
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    opacity: 0.3;
+.post p,
+.post ul,
+.post ol {
+    margin-bottom: 1em;
+}
+
+li ul,
+li ol {
+    margin-bottom: 0;
 }
