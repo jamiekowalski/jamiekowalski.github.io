@@ -25,7 +25,7 @@ html {
 body {
     background: #ffffff;
     color: #222;
-    font: 1.8rem/1.2 "Alegreya", "Lyon Text", Georgia, serif;
+    font: 1.8rem/1.2 "calluna", "Alegreya", "Lyon Text", Georgia, serif;
     /*font-weight: 300;*/ /* For Adelle */
     text-align: center;
     margin: 0 auto;
@@ -95,6 +95,7 @@ h3 {
 #masthead h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: 300;
     /* font-weight: 100; */ /* For Adelle */
     color: #222;
     text-decoration: none;
