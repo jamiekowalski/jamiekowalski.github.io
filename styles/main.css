@@ -93,8 +93,9 @@ h3 {
 }
 
 #masthead h1 {
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 3px;*/
+    font-weight: 100;
     color: #222;
     text-decoration: none;
 }
