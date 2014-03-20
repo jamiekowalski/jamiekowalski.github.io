@@ -25,7 +25,8 @@ html {
 body {
     background: #ffffff;
     color: #222;
-    font: 1.8rem/1.2 "Alegreya", "Lyon Text", Georgia, serif;
+    font: 1.8rem/1.2 "adelle", "Alegreya", "Lyon Text", Georgia, serif;
+    font-weight: 300;
     text-align: center;
     margin: 0 auto;
     text-rendering: optimizeLegibility;
@@ -66,6 +67,9 @@ h3 {
     background-size: 16px 16px;
     background-repeat: no-repeat;
     opacity: 0.3;
+}
+.github:hover {
+    opacity: 0.5;
 }
 
 /* == Home ======================================= */
